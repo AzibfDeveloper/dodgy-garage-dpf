@@ -80,7 +80,7 @@ export default function Home() {
       <header className="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <img src="/images/dodgy-garage-logo.png" alt="Dodgy Garage Logo" className="h-16 w-auto" />
+            <img src="images/dodgy-garage-logo.png" alt="Dodgy Garage Logo" className="h-16 w-auto" />
           </div>
 
           <div className="hidden md:flex items-center gap-8">
@@ -187,7 +187,7 @@ export default function Home() {
           {/* Right: Image */}
           <div className="hidden md:block relative overflow-hidden">
             <img
-              src="/images/hero-mobile-service.png"
+              src="images/hero-mobile-service.png"
               alt="Mobile DPF Cleaning Service"
               className="w-full h-full object-cover"
             />
@@ -198,7 +198,7 @@ export default function Home() {
         {/* Mobile Hero Image */}
         <div className="md:hidden relative h-64 overflow-hidden">
           <img
-            src="/images/hero-mobile-service.png"
+            src="images/hero-mobile-service.png"
             alt="Mobile DPF Cleaning Service"
             className="w-full h-full object-cover"
           />
@@ -611,7 +611,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
             <div>
-              <img src="/images/dodgy-garage-logo.png" alt="Dodgy Garage Logo" className="h-20 w-auto mb-4" />
+              <img src="images/dodgy-garage-logo.png" alt="Dodgy Garage Logo" className="h-20 w-auto mb-4" />
               <p className="text-sm">Mobile DPF Cleaning Service</p>
               <p className="text-sm">Bridgwater & Surrounding Areas</p>
             </div>

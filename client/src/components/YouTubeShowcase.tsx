@@ -35,7 +35,7 @@ export default function YouTubeShowcase() {
             <div 
               className="relative w-full aspect-video overflow-hidden bg-cover bg-center group-hover:brightness-75 transition duration-300"
               style={{
-                backgroundImage: 'url(/images/youtube-thumbnail.jpg)',
+                backgroundImage: 'url(images/youtube-thumbnail.jpg)',
                 backgroundSize: 'cover',
                 backgroundPosition: 'center'
               }}
@@ -45,7 +45,7 @@ export default function YouTubeShowcase() {
               <div 
                 className="absolute inset-0 bg-opacity-0 group-hover:bg-opacity-40 flex items-center justify-center transition duration-300"
                 style={{
-                  backgroundImage: 'url(/images/youtube-thumbnail.jpg)',
+                  backgroundImage: 'url(images/youtube-thumbnail.jpg)',
                   backgroundSize: 'cover',
                   backgroundPosition: 'center'
                 }}

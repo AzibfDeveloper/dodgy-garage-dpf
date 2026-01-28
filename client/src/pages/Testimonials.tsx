@@ -97,7 +97,7 @@ export default function Testimonials() {
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-3">
             <img
-              src="/images/dodgy-garage-logo.png"
+              src="images/dodgy-garage-logo.png"
               alt="Dodgy Garage Logo"
               className="h-16 w-auto"
             />
@@ -226,7 +226,7 @@ export default function Testimonials() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
             <div>
               <img
-                src="/images/dodgy-garage-logo.png"
+                src="images/dodgy-garage-logo.png"
                 alt="Dodgy Garage Logo"
                 className="h-20 w-auto mb-4"
               />

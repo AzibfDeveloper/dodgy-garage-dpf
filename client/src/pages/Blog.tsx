@@ -860,7 +860,7 @@ export default function Blog() {
       <header className="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-3">
-            <img src="/images/dodgy-garage-logo.png" alt="Dodgy Garage Logo" className="h-16 w-auto" />
+            <img src="images/dodgy-garage-logo.png" alt="Dodgy Garage Logo" className="h-16 w-auto" />
           </Link>
 
           <Link href="/" className="text-orange-500 hover:text-orange-600 font-bold">
