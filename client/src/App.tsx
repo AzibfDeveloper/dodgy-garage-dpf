@@ -6,7 +6,7 @@ import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
 import Blog from "./pages/Blog";
-import Testimonials from "./pages/Testimonials";
+import Reviews from "./pages/Reviews";
 import Bristol from "./pages/Bristol";
 import Exeter from "./pages/Exeter";
 import Taunton from "./pages/Taunton";
@@ -20,7 +20,7 @@ function Router() {
       <Route path={"/exeter"} component={Exeter} />
       <Route path={"/taunton"} component={Taunton} />
       <Route path={"/blog/:id?"} component={Blog} />
-      <Route path={"/testimonials"} component={Testimonials} />
+      <Route path={"/reviews"} component={Reviews} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />

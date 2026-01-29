@@ -98,8 +98,8 @@ export default function Home() {
               <Link href="/blog" className="text-sm font-medium text-gray-700 hover:text-orange-500 transition">
                 Blog
               </Link>
-              <Link href="/testimonials" className="text-sm font-medium text-gray-700 hover:text-orange-500 transition">
-                Testimonials
+              <Link href="/reviews" className="text-sm font-medium text-gray-700 hover:text-orange-500 transition">
+                Reviews
               </Link>
             </nav>
             <a href={phoneLink} onClick={() => { (window as any).gtag?.('event', 'phone_click', { 'event_category': 'conversion', 'event_label': 'header_phone' }); }} className="flex items-center gap-2 bg-orange-500 text-white px-4 py-2 rounded-lg hover:bg-orange-600 transition font-medium">
@@ -133,8 +133,8 @@ export default function Home() {
             <Link href="/blog" className="block text-sm font-medium text-gray-700 hover:text-orange-500">
               Blog
             </Link>
-            <Link href="/testimonials" className="block text-sm font-medium text-gray-700 hover:text-orange-500">
-              Testimonials
+            <Link href="/reviews" className="block text-sm font-medium text-gray-700 hover:text-orange-500">
+              Reviews
             </Link>
             <a href={phoneLink} onClick={() => { (window as any).gtag?.('event', 'phone_click', { 'event_category': 'conversion', 'event_label': 'mobile_menu_phone' }); }} className="block w-full bg-orange-500 text-white px-4 py-2 rounded-lg text-center font-medium">
               Call Now
@@ -621,6 +621,7 @@ export default function Home() {
               <ul className="text-sm space-y-2">
                 <li><a href="#services" className="hover:text-orange-500 transition">Services</a></li>
                 <li><Link href="/blog" className="hover:text-orange-500 transition">Blog</Link></li>
+                <li><Link href="/reviews" className="hover:text-orange-500 transition">Reviews</Link></li>
                 <li><a href="https://www.youtube.com/@Dodgy-Garage" target="_blank" rel="noopener noreferrer" className="hover:text-orange-500 transition">YouTube</a></li>
               </ul>
             </div>
