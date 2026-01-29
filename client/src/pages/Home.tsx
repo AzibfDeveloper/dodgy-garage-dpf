@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Phone, MapPin, Clock, Zap, TrendingUp, Users, Send, CheckCircle, MessageCircle } from "lucide-react";
 import { useState, useEffect } from "react";
+import { Link } from "wouter";
 import { addSchemaMarkup, localBusinessSchema, updateMetaTags, trackFormSubmission } from "@/lib/seoHelpers";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import ScrollToTop from "@/components/ScrollToTop";
@@ -94,12 +95,12 @@ export default function Home() {
               <a href="#google-reviews" className="text-sm font-medium text-gray-700 hover:text-orange-500 transition">
                 Reviews
               </a>
-              <a href="/blog" className="text-sm font-medium text-gray-700 hover:text-orange-500 transition">
+              <Link href="/blog" className="text-sm font-medium text-gray-700 hover:text-orange-500 transition">
                 Blog
-              </a>
-              <a href="/testimonials" className="text-sm font-medium text-gray-700 hover:text-orange-500 transition">
+              </Link>
+              <Link href="/testimonials" className="text-sm font-medium text-gray-700 hover:text-orange-500 transition">
                 Testimonials
-              </a>
+              </Link>
             </nav>
             <a href={phoneLink} onClick={() => { (window as any).gtag?.('event', 'phone_click', { 'event_category': 'conversion', 'event_label': 'header_phone' }); }} className="flex items-center gap-2 bg-orange-500 text-white px-4 py-2 rounded-lg hover:bg-orange-600 transition font-medium">
               <Phone size={18} />
@@ -129,12 +130,12 @@ export default function Home() {
             <a href="#google-reviews" className="block text-sm font-medium text-gray-700 hover:text-orange-500">
               Reviews
             </a>
-            <a href="/blog" className="block text-sm font-medium text-gray-700 hover:text-orange-500">
+            <Link href="/blog" className="block text-sm font-medium text-gray-700 hover:text-orange-500">
               Blog
-            </a>
-            <a href="/testimonials" className="block text-sm font-medium text-gray-700 hover:text-orange-500">
+            </Link>
+            <Link href="/testimonials" className="block text-sm font-medium text-gray-700 hover:text-orange-500">
               Testimonials
-            </a>
+            </Link>
             <a href={phoneLink} onClick={() => { (window as any).gtag?.('event', 'phone_click', { 'event_category': 'conversion', 'event_label': 'mobile_menu_phone' }); }} className="block w-full bg-orange-500 text-white px-4 py-2 rounded-lg text-center font-medium">
               Call Now
             </a>
@@ -619,16 +620,16 @@ export default function Home() {
               <h3 className="text-white font-bold mb-4">Quick Links</h3>
               <ul className="text-sm space-y-2">
                 <li><a href="#services" className="hover:text-orange-500 transition">Services</a></li>
-                <li><a href="/blog" className="hover:text-orange-500 transition">Blog</a></li>
+                <li><Link href="/blog" className="hover:text-orange-500 transition">Blog</Link></li>
                 <li><a href="https://www.youtube.com/@Dodgy-Garage" target="_blank" rel="noopener noreferrer" className="hover:text-orange-500 transition">YouTube</a></li>
               </ul>
             </div>
             <div>
               <h3 className="text-white font-bold mb-4">Service Areas</h3>
               <ul className="text-sm space-y-2">
-                <li><a href="/bristol" className="hover:text-orange-500 transition">DPF Cleaning Bristol</a></li>
-                <li><a href="/exeter" className="hover:text-orange-500 transition">DPF Cleaning Exeter</a></li>
-                <li><a href="/taunton" className="hover:text-orange-500 transition">DPF Cleaning Taunton</a></li>
+                <li><Link href="/bristol" className="hover:text-orange-500 transition">DPF Cleaning Bristol</Link></li>
+                <li><Link href="/exeter" className="hover:text-orange-500 transition">DPF Cleaning Exeter</Link></li>
+                <li><Link href="/taunton" className="hover:text-orange-500 transition">DPF Cleaning Taunton</Link></li>
               </ul>
             </div>
             <div>

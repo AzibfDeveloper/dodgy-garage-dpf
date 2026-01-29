@@ -1,5 +1,6 @@
 import { Phone, MapPin, Clock, Zap, TrendingUp, Users, Send, CheckCircle, MessageCircle } from "lucide-react";
 import { useState, useEffect } from "react";
+import { Link } from "wouter";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import ScrollToTop from "@/components/ScrollToTop";
 import FAQSection from "@/components/FAQSection";
@@ -99,18 +100,18 @@ export default function LocationPageTemplate(props: LocationPageProps) {
 
           <div className="hidden md:flex items-center gap-8">
             <nav className="flex gap-6">
-              <a href="/" className="text-sm font-medium text-gray-700 hover:text-orange-500 transition">
+              <Link href="/" className="text-sm font-medium text-gray-700 hover:text-orange-500 transition">
                 Home
-              </a>
+              </Link>
               <a href="#services" className="text-sm font-medium text-gray-700 hover:text-orange-500 transition">
                 Services
               </a>
               <a href="#why-us" className="text-sm font-medium text-gray-700 hover:text-orange-500 transition">
                 Why Us
               </a>
-              <a href="/blog" className="text-sm font-medium text-gray-700 hover:text-orange-500 transition">
+              <Link href="/blog" className="text-sm font-medium text-gray-700 hover:text-orange-500 transition">
                 Blog
-              </a>
+              </Link>
             </nav>
             <a href={phoneLink} onClick={() => { (window as any).gtag?.('event', 'phone_click', { 'event_category': 'conversion', 'event_label': 'location_header_phone' }); }} className="flex items-center gap-2 bg-orange-500 text-white px-4 py-2 rounded-lg hover:bg-orange-600 transition font-medium">
               <Phone size={18} />
@@ -130,18 +131,18 @@ export default function LocationPageTemplate(props: LocationPageProps) {
 
         {isMenuOpen && (
           <div className="md:hidden bg-gray-50 border-t border-gray-200 p-4 space-y-3">
-            <a href="/" className="block text-sm font-medium text-gray-700 hover:text-orange-500">
+            <Link href="/" className="block text-sm font-medium text-gray-700 hover:text-orange-500">
               Home
-            </a>
+            </Link>
             <a href="#services" className="block text-sm font-medium text-gray-700 hover:text-orange-500">
               Services
             </a>
             <a href="#why-us" className="block text-sm font-medium text-gray-700 hover:text-orange-500">
               Why Us
             </a>
-            <a href="/blog" className="block text-sm font-medium text-gray-700 hover:text-orange-500">
+            <Link href="/blog" className="block text-sm font-medium text-gray-700 hover:text-orange-500">
               Blog
-            </a>
+            </Link>
             <a href={phoneLink} onClick={() => { (window as any).gtag?.('event', 'phone_click', { 'event_category': 'conversion', 'event_label': 'location_mobile_menu_phone' }); }} className="block w-full bg-orange-500 text-white px-4 py-2 rounded-lg text-center font-medium">
               Call Now
             </a>
