@@ -15,58 +15,58 @@ interface FAQItem {
 
 const faqItems: FAQItem[] = [
   {
-    id: "dpf-warning-light",
-    question: "What does the DPF warning light mean?",
+    id: "services-offered",
+    question: "What services do you offer at Dodgy Garage?",
     answer:
-      "The DPF (Diesel Particulate Filter) warning light indicates that your filter has become clogged with soot and ash. This is a safety mechanism to alert you that your engine's emissions system needs attention. When ignored, it can lead to reduced engine performance, increased fuel consumption, and potential engine damage. The good news is that we can clean it quickly without replacement. Learn more in our detailed guide: <a href='/blog/dpf-signs' className='text-orange-500 font-bold hover:underline'>5 Signs Your DPF Needs a Professional Clean</a>.",
+      "At Dodgy Garage, we specialize in Diesel Particulate Filter (DPF) cleaning, AdBlue fault code diagnosis, and EGR cooler cleaning. We also handle anything related to the exhaust emissions system to ensure your diesel engine runs smoothly and efficiently.",
   },
   {
-    id: "how-long-service",
-    question: "How long does the DPF cleaning service take?",
+    id: "dpf-warning-light",
+    question: "What should I do if I see a DPF warning light on my dashboard?",
     answer:
-      "Most DPF cleaning jobs take about 1 hour from start to finish. This includes diagnostics, cleaning, and regeneration of your filter. We work on-site at your location, so there's no need to drop your car off at a garage. Once we're done, you're back on the road immediately. Some complex cases may take slightly longer, but we'll always give you an estimate upfront.",
+      "If you see a DPF warning light, it means your filter is clogged and your engine might go into 'limp-home' mode. Contact Dodgy Garage immediately. We will come to you, clean and regenerate the DPF, and reset your engine management system to clear the warning light. This service is performed on-site and typically takes about an hour.",
   },
   {
     id: "cost-comparison",
-    question: "Why is your service only £245 when other garages charge £2,500+?",
+    question: "How much does it cost to clean a DPF?",
     answer:
-      "Most garages replace the entire DPF unit, which costs £2,500 or more. We clean and regenerate your existing filter using professional diagnostic equipment. Since we're not replacing parts, just cleaning them, our costs are significantly lower. You get the same result—a working DPF—for a fraction of the price. Plus, we come to you, saving you time and hassle.",
+      "Our complete service (Call Out + Diagnostics + Cleaning) is only <strong>£245.00</strong>. This is significantly cheaper than the £2,500+ often quoted by garages for a full DPF replacement. You get the same result—a working DPF—for a fraction of the price.",
   },
   {
-    id: "will-light-go-off",
-    question: "Will the warning light go off after the service?",
+    id: "how-long-service",
+    question: "How long does the DPF cleaning process take?",
     answer:
-      "Yes! Once we've cleaned and regenerated your DPF, we reset your engine's computer system to clear the warning light. The light should disappear immediately after the service. If it comes back later, it usually means the filter is clogging again, which could be due to driving habits (short journeys, lots of idling) or a deeper issue we can diagnose.",
+      "The DPF cleaning and regeneration process typically takes about <strong>one hour</strong>. Our mobile service allows us to perform the cleaning on-site at your location, so you can get back on the road quickly without the need for a garage visit.",
   },
   {
-    id: "how-often-cleaning",
-    question: "How often do I need DPF cleaning?",
+    id: "maintenance-advice",
+    question: "Do you offer any advice on maintaining the DPF?",
     answer:
-      "This depends on your driving habits. If you mainly do short journeys around town with lots of idling, your DPF may need cleaning every 12-18 months. If you do longer motorway drives regularly, it could be 2-3 years or more. We'll advise you based on your specific situation. Regular motorway driving helps regenerate the filter naturally, so it clogs less often.",
+      "Yes! After cleaning your DPF, our technicians will provide you with valuable advice on why the DPF clogged in the first place and how to best maintain it to prevent future issues. Proper maintenance can extend the life of your DPF and improve your vehicle's performance and fuel economy. Learn more in our guide: <a href='/blog/dpf-signs' className='text-orange-500 font-bold hover:underline'>5 Signs Your DPF Needs a Professional Clean</a>.",
   },
   {
     id: "all-diesel-cars",
     question: "Do you service all types of diesel vehicles?",
     answer:
-      "Yes! We work on all diesel vehicles—vans, cars, 4x4s, trucks, and everything in between. We have experience with all major brands including Ford, Vauxhall, Mercedes, BMW, Audi, Volkswagen, and more. Whether it's a DPF issue, AdBlue fault, or EGR cooler problem, we've got the expertise and equipment to sort it. Check out our guides on <a href='/blog/adblue-faults' className='text-orange-500 font-bold hover:underline'>AdBlue diagnostics</a> and <a href='/blog/egr-cooler-problems' className='text-orange-500 font-bold hover:underline'>EGR cooler problems</a> for more information. Just give us a call with your vehicle details.",
+      "Yes! We work on all diesel vehicles—vans, cars, 4x4s, trucks, and everything in between. We have experience with all major brands including Ford, Vauxhall, Mercedes, BMW, Audi, Volkswagen, and more. Whether it's a DPF issue, AdBlue fault, or EGR cooler problem, we've got the expertise and equipment to sort it.",
+  },
+  {
+    id: "payment-methods",
+    question: "How do I book an appointment and make a payment?",
+    answer:
+      "Booking is easy! You can call us directly at <strong>07983 361554</strong>, message us on WhatsApp, or use our online contact form. We accept cash, card (Visa, Mastercard, American Express), and bank transfers. Payment is due once the service is complete and your vehicle is sorted.",
   },
   {
     id: "warranty",
     question: "Is there a warranty on the cleaning service?",
     answer:
-      "We stand behind our work. If your DPF warning light comes back within 30 days due to our service not being effective, we'll reclean it for free. However, if the light returns later due to your driving habits or other issues, that's normal wear and tear. We also provide full diagnostics, so if there's a deeper problem (like a faulty sensor or exhaust leak), we'll identify it and advise you.",
+      "We stand behind our work. If your DPF warning light comes back within 30 days due to our service not being effective, we'll reclean it for free. We also provide full diagnostics to identify if there's a deeper problem (like a faulty sensor) that needs attention.",
   },
   {
     id: "emergency-service",
     question: "Can you do emergency callouts?",
     answer:
-      "Absolutely! If your DPF light comes on and you need it sorted urgently, give us a call. We offer emergency callouts outside normal hours (8am-6pm Mon-Fri) for an additional fee. We'll do our best to fit you in quickly. Just call 07983 361554 and explain your situation—we'll see what we can do to get you back on the road.",
-  },
-  {
-    id: "payment-methods",
-    question: "What payment methods do you accept?",
-    answer:
-      "We accept cash, card (Visa, Mastercard, American Express), and bank transfers. Payment is due once the service is complete. We'll provide you with an invoice for your records. For larger jobs or fleet services, we can arrange payment terms—just ask when you call.",
+      "Absolutely! If your DPF light comes on and you need it sorted urgently, give us a call. We offer emergency callouts outside normal hours (8am-6pm Mon-Fri) for an additional fee. We'll do our best to fit you in quickly to get you back on the road.",
   },
 ];
 
