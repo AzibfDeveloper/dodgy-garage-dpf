@@ -92,9 +92,7 @@ export default function Home() {
               <a href="#why-us" className="text-sm font-medium text-gray-700 hover:text-orange-500 transition">
                 Why Us
               </a>
-              <a href="#google-reviews" className="text-sm font-medium text-gray-700 hover:text-orange-500 transition">
-                Reviews
-              </a>
+
               <Link href="/blog" className="text-sm font-medium text-gray-700 hover:text-orange-500 transition">
                 Blog
               </Link>
@@ -127,9 +125,7 @@ export default function Home() {
             <a href="#why-us" className="block text-sm font-medium text-gray-700 hover:text-orange-500">
               Why Us
             </a>
-            <a href="#google-reviews" className="block text-sm font-medium text-gray-700 hover:text-orange-500">
-              Reviews
-            </a>
+
             <Link href="/blog" className="block text-sm font-medium text-gray-700 hover:text-orange-500">
               Blog
             </Link>
