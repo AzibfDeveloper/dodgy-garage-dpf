@@ -331,9 +331,9 @@ export default function Home() {
                   <a href={phoneLink} onClick={() => { (window as any).gtag?.('event', 'phone_click', { 'event_category': 'conversion', 'event_label': 'dpf_card_phone' }); }} className="flex-1 text-center bg-orange-500 text-white font-bold py-3 rounded-lg hover:bg-orange-600 transition">
                     Book Now
                   </a>
-                  <a href="/blog/dpf-signs" className="flex-1 text-center bg-gray-200 text-gray-900 font-bold py-3 rounded-lg hover:bg-gray-300 transition">
+                  <Link href="/blog/dpf-signs" className="flex-1 text-center bg-gray-200 text-gray-900 font-bold py-3 rounded-lg hover:bg-gray-300 transition">
                     Learn More
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -353,9 +353,9 @@ export default function Home() {
                   <a href={phoneLink} onClick={() => { (window as any).gtag?.('event', 'phone_click', { 'event_category': 'conversion', 'event_label': 'adblue_card_phone' }); }} className="flex-1 text-center bg-orange-500 text-white font-bold py-3 rounded-lg hover:bg-orange-600 transition">
                     Book Now
                   </a>
-                  <a href="/blog/adblue-faults" className="flex-1 text-center bg-gray-200 text-gray-900 font-bold py-3 rounded-lg hover:bg-gray-300 transition">
+                  <Link href="/blog/adblue-faults" className="flex-1 text-center bg-gray-200 text-gray-900 font-bold py-3 rounded-lg hover:bg-gray-300 transition">
                     Learn More
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -375,9 +375,9 @@ export default function Home() {
                   <a href={phoneLink} onClick={() => { (window as any).gtag?.('event', 'phone_click', { 'event_category': 'conversion', 'event_label': 'egr_card_phone' }); }} className="flex-1 text-center bg-orange-500 text-white font-bold py-3 rounded-lg hover:bg-orange-600 transition">
                     Book Now
                   </a>
-                  <a href="/blog/egr-cooler-problems" className="flex-1 text-center bg-gray-200 text-gray-900 font-bold py-3 rounded-lg hover:bg-gray-300 transition">
+                  <Link href="/blog/egr-cooler-problems" className="flex-1 text-center bg-gray-200 text-gray-900 font-bold py-3 rounded-lg hover:bg-gray-300 transition">
                     Learn More
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
